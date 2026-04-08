@@ -16,7 +16,3 @@ Podium es una aplicación móvil multiplataforma que optimiza la entrega, visual
 - **Backend & Auth:** Supabase
 - **Lenguaje:** TypeScript
 
-## 📱 Proceso de Ejecución Local
-1. Clona el repositorio: `git clone [url-del-repo]`
-2. Instala las dependencias: `npm install`
-3. Inicia la aplicación: `npm run start` o `npx expo start`
