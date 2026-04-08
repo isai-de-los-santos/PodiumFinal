@@ -1,0 +1,43 @@
+{
+    "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+            "_id",
+            "correo",
+            "nombre",
+            "password",
+            "proyectos_por_calificar",
+            "rol",
+            "verificado"
+        ],
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "correo": {
+                "bsonType": "string"
+            },
+            "nombre": {
+                "bsonType": "string"
+            },
+            "password": {
+                "bsonType": "string"
+            },
+            "proyectos_por_calificar": {
+                "bsonType": "array"
+            },
+            "rol": {
+                "bsonType": "string",
+                "enum": [
+                    "estudiante",
+                    "maestro",
+                    "admin"
+                ],
+                "description": "Debe ser 'estudiante', 'maestro' o 'admin'"
+            },
+            "verificado": {
+                "bsonType": "bool"
+            }
+        }
+    }
+}
