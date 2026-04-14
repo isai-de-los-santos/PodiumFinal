@@ -1,0 +1,11 @@
+{
+    "_id": {
+        "$oid": "698c8626169b58d2d15237de"
+    },
+    "nombre": "Rigel Villanueva",
+    "correo": "rigel@alumno.edu",
+    "rol": "estudiante",
+    "verificado": false,
+    "proyectos_por_calificar": [],
+    "password": "contraseña_encriptada"
+}

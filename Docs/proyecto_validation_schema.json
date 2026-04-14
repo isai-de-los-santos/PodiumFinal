@@ -1,0 +1,80 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "autores_correos",
+      "descripcion",
+      "estatus",
+      "evaluaciones_docentes",
+      "evidencias",
+      "nombre",
+      "promedio_general",
+      "subido_por",
+      "fecha_creacion"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "autores_correos": {
+        "bsonType": "array",
+        "description": "Lista de correos de los estudiantes que participaron en el proyecto",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "nombre": {
+        "bsonType": "string"
+      },
+      "subido_por": {
+        "bsonType": "string",
+        "description": "ID del usuario (estudiante) que subió el proyecto"
+      },
+      "fecha_creacion": {
+        "bsonType": "date"
+      },
+      "estatus": {
+        "bsonType": "string",
+        "enum": [
+          "pendiente",
+          "aprobado",
+          "rechazado",
+          "evaluado"
+        ],
+        "description": "Debe ser 'pendiente', 'aprobado', 'rechazado' o 'evaluado'"
+      },
+      "promedio_general": {
+        "bsonType": "number"
+      },
+      "evaluaciones_docentes": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "properties": {
+            "promedio_por_maestro": {
+              "bsonType": "number"
+            },
+            "rubrica": {
+              "bsonType": "array",
+              "items": {
+                "bsonType": "object",
+                "properties": {
+                  "criterio": {
+                    "bsonType": "string"
+                  },
+                  "obtenido": {
+                    "bsonType": "number"
+                  },
+                  "puntos_max": {
+                    "bsonType": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

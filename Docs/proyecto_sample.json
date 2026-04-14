@@ -1,0 +1,80 @@
+{
+    "_id": {
+        "$oid": "6995ccf8d4ec9281ec48e58f"
+    },
+    "nombre": "SubLegados Tours",
+    "descripcion": "Plataforma turística inteligente con mapas interactivos y gestión multimedia.",
+    "subido_por": "698c8626169b58d2d15237de",
+    "fecha_creacion": {
+        "$date": "2026-02-24T10:00:00.000Z"
+    },
+    "autores_correos": [
+        "rigel@alumno.edu",
+        "juan@alumno.edu"
+    ],
+    "estatus": "aprobado",
+    "promedio_general": 93.5,
+    "evidencias": {
+        "repositorio_git": "https://github.com/rigel/sublegados-tours",
+        "videos": [
+            {
+                "titulo": "Demo Android",
+                "url": "https://firebasestorage.com/v0/b/kiosko/video1.mp4"
+            },
+            {
+                "titulo": "Pitch Comercial",
+                "url": "https://firebasestorage.com/v0/b/kiosko/video2.mp4"
+            }
+        ],
+        "imagenes": [
+            "https://firebasestorage.com/v0/b/kiosko/screenshot1.png"
+        ],
+        "documentos_pdf": [
+            "https://firebasestorage.com/v0/b/kiosko/manual_tecnico.pdf"
+        ],
+        "diapositivas": "https://canva.com/view/sublegados-slides"
+    },
+    "evaluaciones_docentes": [
+        {
+            "maestro_id": "ID_MARLENE",
+            "nombre_maestro": "Ing. Marlene",
+            "fecha_evaluacion": {
+                "$date": "2026-02-18T10:00:00.000Z"
+            },
+            "promedio_por_maestro": 97,
+            "retroalimentacion_final": "Excelente implementación de la arquitectura NoSQL.",
+            "rubrica": [
+                {
+                    "criterio": "Modelado NoSQL",
+                    "puntos_max": 25,
+                    "obtenido": 25,
+                    "obs": "Validaciones perfectas."
+                },
+                {
+                    "criterio": "Arquitectura API",
+                    "puntos_max": 25,
+                    "obtenido": 24,
+                    "obs": "Endpoints limpios."
+                },
+                {
+                    "criterio": "Interfaz UX Móvil",
+                    "puntos_max": 20,
+                    "obtenido": 18,
+                    "obs": "Mejorar contraste."
+                },
+                {
+                    "criterio": "Control de Git",
+                    "puntos_max": 15,
+                    "obtenido": 15,
+                    "obs": "Uso de ramas correcto."
+                },
+                {
+                    "criterio": "Multimedia",
+                    "puntos_max": 15,
+                    "obtenido": 15,
+                    "obs": "Video descriptivo."
+                }
+            ]
+        }
+    ]
+}
