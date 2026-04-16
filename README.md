@@ -23,6 +23,7 @@ Para evitarse la molestia de configurar el entorno de desarrollo local, puedes p
 2. Clona el repositorio, entra a `podium-app` y ejecuta `npx expo start --clear`.
 3. Escanea el QR que aparece en la terminal con Expo Go.
 4. Inicia sesión con alguna de las cuentas de demostración:
+5. El Dispositivo movil debe estar conectado a la misma red que el PC
 
 | Rol | Email | Contraseña |
 |---|---|---|
